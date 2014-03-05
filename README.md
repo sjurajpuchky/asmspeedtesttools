@@ -23,14 +23,12 @@ HOW TO RUN
 ----------
 
 ### store your work, login as root
-> init 4
-> 
-> make
-> 
-> init 5
->
-
+~~~~
+init 4
+make
+init 5
+~~~~
 ### start X
-> make results
->
-
+~~~~
+make results
+~~~~
