@@ -1,8 +1,15 @@
-SPEED TEST comparsion of instructions XOR,MOV,ADD,AND,XMOV,LD
-=================================================
-Author: Juraj Puchký - Devtech <sjurajpuchky@seznam.cz>
-Web: http://www.devtech.cz/knowledge-base/advanced-techniques/advanced-programming-tips/compare-what-is-faster-mov-xor-add-and-ld-xmov-and-their-long-operand-instructions-updated
-GIT: https://github.com/sjurajpuchky/asmspeedtesttools
+SPEED TEST comparsion
+=====================
+### for instructions
+XOR,MOV,ADD,AND,XMOV
+--------------------
+
+> Author: Juraj Puchký - Devtech <sjurajpuchky@seznam.cz>
+>
+> Web: http://www.devtech.cz/knowledge-base/advanced-techniques/advanced-programming-tips/compare-what-is-faster-mov-xor-add-and-ld-xmov-and-their-long-operand-instructions-updated
+>
+> GIT: https://github.com/sjurajpuchky/asmspeedtesttools
+>
 
 INTRODUCTION
 ------------
@@ -15,10 +22,15 @@ Each test runs 100 000 of instructions in one block and each experiment has 1000
 HOW TO RUN
 ----------
 
-#store your work, login as root
-init 4
-make
-init 5
-# start X
-make results
+### store your work, login as root
+> init 4
+> 
+> make
+> 
+> init 5
+>
+
+### start X
+> make results
+>
 
